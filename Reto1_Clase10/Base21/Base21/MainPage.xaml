@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Base21.MainPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="tbSave" IconImageSource="save.png" Priority="0" Order="Primary"/>
+        <ToolbarItem x:Name="tbResultados" IconImageSource="resultados.png" Priority="1" Order="Primary"/>
+    </ContentPage.ToolbarItems>
+    
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Calculadora" HorizontalOptions="Center"  VerticalOptions="Center" FontSize="Body"/>
+        <Grid Padding="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="50" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label Text="Número 1:" Grid.Row="0" Grid.Column="0" x:Name="lblnum1" FontSize="Body"/>
+            <Entry Placeholder=" " Grid.Row="0" Grid.Column="1" x:Name="num1" />
+            <Label Text="Número 2:" Grid.Row="1" Grid.Column="0" x:Name="lblnum2" FontSize="Body"/>
+            <Entry Placeholder=" " Grid.Row="1" Grid.Column="1" x:Name="num2" />
+            <Label Text="Resultado" Grid.Row="2" Grid.Column="0" x:Name="lblres" FontSize="Body"/>
+            <Label Grid.Row="2" Grid.Column="1" x:Name="res" FontSize="Body"/>
+            <Button Text="Suma" Grid.Row="3" Grid.Column="0" x:Name="BtnSuma" ClassId="+" BackgroundColor="Orange" BorderColor="Black"/>
+            <Button Text="Resta" Grid.Row="3" Grid.Column="1" x:Name="BtnRest" ClassId="-"  BackgroundColor="Orange" BorderColor="Black"/>
+            <Button Text="Multiplicacion" Grid.Row="4" Grid.Column="0" x:Name="BtnMult" ClassId="*" BackgroundColor="Orange" BorderColor="Black"/>
+            <Button Text="Division" Grid.Row="4" Grid.Column="1" x:Name="BtnDiv" ClassId="/" BackgroundColor="Orange" BorderColor="Black"/>
+            <Button Text="Limpiar" Grid.Row="5" Grid.Column="0" x:Name="BtnLimp" BackgroundColor="Orange" BorderColor="Black"/>
+        </Grid>
+    </StackLayout>
+
+</ContentPage>

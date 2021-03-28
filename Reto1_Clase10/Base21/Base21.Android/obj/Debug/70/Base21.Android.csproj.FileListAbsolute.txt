@@ -1,0 +1,3 @@
+C:\Users\shitdows\Downloads\Reto1_Clase10\Reto1_Clase10\Base21\Base21.Android\obj\Debug\70\MonoAndroid,Version=v7.0.AssemblyAttributes.cs
+C:\Users\shitdows\Downloads\Reto1_Clase10\Reto1_Clase10\Base21\Base21.Android\obj\Debug\70\build.props
+C:\Users\shitdows\Downloads\Reto1_Clase10\Reto1_Clase10\Base21\Base21.Android\obj\Debug\70\adb.props

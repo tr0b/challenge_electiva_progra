@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "A4+j+y0gaWEpYvXXb0EegdhDahDMklsC25ebi45pptqHANklJSTopxW/fYIVg7K6bkph8FGgP3ck26diLUlq1g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\shitdows\\Downloads\\Reto1_Clase10\\Reto1_Clase10\\Base21\\Base21.iOS\\Base21.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shitdows\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\shitdows\\.nuget\\packages\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "C:\\Users\\shitdows\\.nuget\\packages\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"
+  ],
+  "logs": []
+}
